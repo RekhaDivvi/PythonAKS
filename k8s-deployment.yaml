@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-php-app
-        image: akdevopscoaching/mypython-app
+        image: testacrregistry12.azurecr.io/testacrregistry12/python-app
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
